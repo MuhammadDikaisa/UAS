@@ -8,8 +8,7 @@
 
 *<h2>Didalam modul daftar_nilai.py terdapat beberapa fungsi sebagai berikut :*
 
-<h3>1. tambah data
-
+*<h3>1. tambah_data*
 
 ```python
 def tambah_data():
@@ -30,7 +29,12 @@ def tambah_data():
             return data
 ```       
 
-<h4> 2. ubah_data
+*<h3>Output tambah_data :*
+
+
+<img width="394" alt="3" src="https://user-images.githubusercontent.com/115516378/211127313-132ae0ad-c420-47aa-b037-a0ecafe39881.png">
+
+*<h3> 2. ubah_data*
 
 ```python
 def ubah_data():
@@ -69,4 +73,40 @@ def ubah_data():
             
     else:
         print("'{}' tidak ditemukan".format(nama))
+```
+
+*<h3>Output ubah_data :*
+
+<img width="344" alt="4" src="https://user-images.githubusercontent.com/115516378/211127402-1ba387e5-e432-4c42-9617-d0364c764e67.png">
+
+
+*<h3> 3. hapus_data*
+
+```pyhton
+def hapus_data():
+    nama = input("Masukan nama untuk menghapus data : ")
+    if nama in data.keys():
+        del data[nama]
+        print("\nData '{}' berhasil dihapus.".format(nama))
+    else:
+        print("'{}' tidak ditemukan.".format(nama))
+```
+
+*<h3>Output hapus_data*
+
+*<h3> 4. cari_data*
+
+```python
+def cari_data():
+    print("Mencari data : ")
+    print("===============================================")
+    nama = input("Masukan nama untuk mencari data : ")
+    print('\nResult')
+    print("===============================================")
+    print("|        Nama        |   NIM   | Tugas | UTS | UAS|  Akhir  |")
+    if nama in data.keys():
+        print("| {0:14} | {1:9} | {2:5} | {3:5} | {4:5} | {5:5}".format(nama, data[nama][1], data[nama][2], data[nama][3], data[nama][4], data[nama][5]))
+        print("===============================================")
+    else:
+        print("'{}' tidak ditemukan.".format(nama))
 ```
