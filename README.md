@@ -122,7 +122,7 @@ def cari_data():
 
 <img width="373" alt="6" src="https://user-images.githubusercontent.com/115516378/211128173-f5895c5d-22bd-407d-a4d0-3f8daad83a61.png">
 
-*<h2> Didalam Folder view terdapat modul input_nilai dan view_nilai sebagai berikut : *
+*<h2> Didalam Folder view terdapat modul input_nilai dan view_nilai sebagai berikut :*
 *<h3>1. input_nilai :*
 ```python
 # Menginput data
@@ -169,7 +169,7 @@ def nakhir():
 
 <img width="373" alt="7" src="https://user-images.githubusercontent.com/115516378/211128462-4fdfa926-f73a-4018-a720-21fccc80c4a6.png">
 
-*<h3>2. view_nilai : *
+*<h3>2. view_nilai :*
 
 ```pyhton
 # Menampilkan data
