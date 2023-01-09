@@ -2,6 +2,14 @@
 # Nim     : 312210289
 # Kelas   : TI.22.A.3
 
+*<h2>Dokumentasi Youtube dan Pdf*
+
+*<h2>Click Link Dokumentasi Youtube dan PDF dibawan sini :*
+
+[Youtube](https://youtu.be/uJ-z5W0_ZCw)
+
+[PDF](https://drive.google.com/drive/folders/1WHAhQVe70juY9mbghaKn_zklbBq8k_1N?usp=sharing)
+
 *<h2>Buatlah package dan modul dengan struktur seperti berikut :*
 
 <img width="109" alt="1" src="https://user-images.githubusercontent.com/115516378/211126781-15b060c0-e42e-4d09-b86f-93c4c6d665a3.png">
